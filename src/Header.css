@@ -1,0 +1,25 @@
+.header{
+    width: 100vw;
+
+    display: flex;
+   
+}
+.header-space{
+    flex:1;
+}
+.header > h4{
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.header-sigin > p{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-signout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

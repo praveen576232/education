@@ -1,0 +1,26 @@
+.login{
+    width: 100vw;
+    height:100vh;
+    background: white;
+     display: grid;
+    place-items: center;
+}
+.signin{
+    color: white;
+    background: #2e81f4 !important;
+    width: 270px;
+    height: 40px;
+}
+.signin:hover{
+    color: #2e81f4 ;
+    background: white!important;
+}
+.login_logo{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+.login_logo >img{
+    object-fit: contain;
+    height: 150px;
+}

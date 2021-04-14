@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.name h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.app {
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  position: absolute;
+  height: 15vh;
+  width: 50vw;
+  top: 50%;
+  left: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.button-learn {
+  background-color: blue !important;
+  color: white !important;
+  font-weight: bolder !important;
+  width: 20vw !important;
+  height: 50px !important;
+  transition: all 100ms !important;
+}
+.button-learn:hover {
+  color: blue !important;
+  border: 2px solid blue !important;
+  background-color: white !important;
+}
+.button-moniter {
+  background-color: red !important;
+  color: white !important;
+  font-weight: bolder !important;
+  width: 20vw !important;
+  margin-left: 20px !important;
+  height: 50px !important;
+  transition: all 100ms !important;
+}
+.button-moniter:hover {
+  color: red !important;
+  border: 2px solid red !important;
+  background-color: white !important;
+}
+.button-hier {
+  background-color: green !important;
+  color: white !important;
+  font-weight: bolder !important;
+  width: 20vw !important;
+  margin-left: 20px !important;
+  margin-top: 30px !important;
+  height: 50px !important;
+  transition: all 100ms !important;
+}
+.button-hier:hover {
+  color: green !important;
+  border: 2px solid green !important;
+  background-color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.closeModel {
+  position: absolute !important;
+  top: 2px;
+  right: 0px;
+}
+.circle {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex !important;
+}
+.coursesitem{
+  border-bottom: 1px grey;
+  cursor: pointer;
+  background-color: lightgrey !important;
+
+  width: 30vw !important;
+  color: black !important;
+  font-weight: bold !important ;
+  margin-top: 5px !important;
+}
+.courseslists{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.moniter_link{
+  text-decoration: none !important;
 }

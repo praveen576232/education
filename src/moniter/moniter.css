@@ -1,0 +1,43 @@
+.moniter_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(128, 128, 128);
+}
+.moniter_Addbutton{
+   width: 100% !important;
+    margin-right: 50px !important;
+    background-color: green !important;
+    color: whitesmoke !important;
+   margin-bottom: 8px !important;
+   font-weight: bolder !important;
+  margin-top: 3px !important;
+}
+.dislaymoniter{
+    display:flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+.dislaymoniter_info{
+    display:flex;
+    align-items: center;
+}
+.dislaymoniter_name{
+    margin-left: 20px;
+}
+.dislaymoniter > h4{
+    margin-right: 30px;
+}
+.moniter_list{
+    height: 100vh;
+    flex: 0.33;
+   border-right:1px solid grey;
+   overflow: scroll;
+}
+.moniter{
+    display: flex;
+}
